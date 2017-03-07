@@ -1,0 +1,106 @@
+ 1  ls
+    2  ls -la
+    3  pin index_html
+    4  vi index_html
+    5  ls -la
+    6  cd public_html
+    7  touch index.html
+    8  ls -la
+    9  nano index.html
+   10  cat index.html
+   11  nano index.html
+   12  cd ..
+   13  man touch
+   14  logout
+   15  ls -la
+   16  cd public_html
+   17  ls -la
+   18  cd ..
+   19  pwd
+   20  cd public_html
+   21  wc index.html
+   22  cat index.tml
+   23  cat index.html
+   24  ls -la
+   25  cd ..
+   26  ls -al
+   27  mkdir repo
+   28  cd repo
+   29  git clone https://github.com/DieniLucky/m26415135.git
+   30  ls
+   31  ls -la
+   32  git status
+   33  nano README.md
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "modify readme"
+   38  git config --global user.email "m26415135@john.petra.ac.id"
+   39  git config --global user.name "Dieni Lucky"
+   40  git commit -m "modify readme"
+   41  git status
+   42  git push
+   43  ls
+   44  touch test.txt
+   45  vim test.txt
+   46  ls
+   47  cat test.txt
+   48  git status
+   49  git add .
+   50  git status
+   51  git commit -m "add test.txt file"
+   52  git push
+   53  cd ..
+   54  .ssh$ ls
+   55  cd .
+   56  cd ..
+   57  ls
+   58  cd m26415135
+   59  cd ./ssh
+   60  ls
+   61  ls -la
+   62  ssh-keygen -t rsa -b 4096 -C "m26415135@john.petra.ac.id"
+   63  ls
+   64  ls -la
+   65  cd .ssh/
+   66  ls
+   67  cat id_rsa.pub
+   68  cd
+   69  git clone git@github.com:DieniLucky/m26415135.git
+   70  ls
+   71  cd repo
+   72  ls
+   73  rm -rf m26415135
+   74  ls
+   75  cd
+   76  ls
+   77  cd repo
+   78  git clone git@github.com:DieniLucky/m26415135.git
+   79  ls
+   80  logout
+   81  history
+   82  cd .ssh/
+   83  cat id_rsa.pub
+   84  ls -al
+   85  cd m26415135
+   86  ls -al
+   87  cd ..
+   88  cd repo
+   89  ls -al
+   90  cd m26415135
+   91  ls -al
+   92  ls -al
+   93  cd .ssh/
+   94  ls -al
+   95  cd id_rsa.pub
+   96  cd m26415135
+   97  ls
+   98  cat test.txt
+   99  cat README.md
+  100  cd ..
+  101  cd repo
+  102  ls
+  103  cd m26415135
+  104  ls
+  105  exit
+  106  history
