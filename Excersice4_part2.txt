@@ -1,0 +1,49 @@
+chmod u+rw g+r o+0 $HOME/projects/house2
+  438  chmod u+rw go+r $HOME/projects/house2
+  439  chmod u+rw g-wx o-rwx $HOME/projects/house2
+  440  chmod u+rw $HOME/projects/house2
+  441  chmod g-wx $HOME/projects/house2
+  442  chmod o-rwx $HOME/projects/house2
+  443  cd projects
+  444  ls -al
+  445  chmod g+r $HOME/projects/house2
+  446  ls -al
+  447  chmod g-x $HOME/projects/house2
+  448  ls -al
+  449  chmod u-x $HOME/projects/house2
+  450  ls -al
+  451  cd ..
+  452  chmod -R u-rwx $HOME/projects
+  453  chmod -R o-rwx $HOME/projects
+  454  chmod -R 000 $HOME/projects 
+  455  git status
+  456  history
+  457  touch Excersice4_part2.txt
+  458  nano Excersice4_part2.txt 
+  459  history
+  460  cd projects
+  461  ls
+  462  ls -al
+  463  chmod -R 777 $HOME/projects
+  464  ls -al
+  465  chmod u+rwx $HOME/projects
+  466  chmod g-w $HOME/projects
+  467  chmod o-w $HOME/projects
+  468  ls -al
+  469  hitory
+  470  history
+  471  cd projects
+  472  ls
+  473  cd ..
+  474  chmod -R u+rwx $HOME/projects
+  475  chmod -R g-w $HOME/projects
+  476  chmod -R o-w $HOME/projects
+  477  ls -al
+  478  cd projects
+  479  ls
+  480  cd ..
+  481  history
+m26415135@debian7:~$ cd projects
+m26415135@debian7:~/projects$ ls
+house1  house2  house5  house9  houses  initscripts  outdoors
+
