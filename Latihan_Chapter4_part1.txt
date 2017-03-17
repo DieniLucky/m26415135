@@ -1,0 +1,60 @@
+//Latihan Chap 4//
+ 792  cd /usr/share/
+  793  pwd
+  794  cd doc
+  795  cd
+  796  pwd
+  797  history
+  798  cd ~
+  799  pwd
+  800  cd ~/Music
+  801  ls
+  802  cd ~/kelas
+  803  pwd
+  804  cd ../../../usr
+  805  pwd
+  806  history
+  807  cd
+  808  pwd
+  809  mkdir test
+  810  ls -ld test
+  811  chmod 700 test
+  812  ls -al
+  813  cd test
+  814  pwd
+  815  history
+ 816  cd
+  817  touch apple banana grape grapefruit watermelon
+  818  ls a*
+  819  ls g*
+  820  ls g*t
+  821  ls *e*
+  822  ls ????e
+  823  ls g???e*
+  824  ls [abw]*
+  825  ls [agw]*[ne]
+  826  history
+ 827  mail root < ~/.bashrc
+  828  man chmod | col -b > /tmp/chmod
+  829  echo "I finished the project on $(date)" >> ~/projects
+  830  echo "I finished the project on $(date)" >> ~/test
+  831  ls
+  832  echo "I finished the project on $(date)" >> ~/fruits2.txt
+  833  cat fruits2.txt 
+  834  history
+ 835  mail root cnegus rjones bdecker <<thetext
+I want to tell everyone that there will be a 10 a.m.
+meeting in conference room B. Everyone should attend.
+
+-- James
+thetext
+
+  836  /bin/ed /etc/resolv.conf <<resendit
+a
+nameserver 100.100.100.100
+.
+w
+q
+resendit
+
+  837  history
