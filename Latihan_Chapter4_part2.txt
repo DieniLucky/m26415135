@@ -1,0 +1,52 @@
+//Latihan Chapter 4 //
+
+835  ls
+  836  cd test
+  837  ls
+  838  touch memo{1,2,3,4,5}
+  839  ls
+  840  history
+  841  touch {John,Bill,Sally}-{Breakfast,Lunch,Dinner}
+  842  ls
+  843  rm -f {John,Bill,Sally}-{Breakfast,Lunch,Dinner}
+  844  ls
+  845  touch {a..f}{1..5}
+  846  ls
+  847  history
+ 848  alias ls
+  849  cd ..
+  850  cd $HOME/test
+  851  touch scriptx.sh apple
+  852  chmod 755 scriptx.sh 
+  853  mkdir Stuff
+  854  ln -s apple pointer_to_apple
+  855  ls
+  856  history
+857  ls -l
+  858  cd ..
+  859  ls -la /home/m26415135
+  860  ls -a
+  861  ls -at
+  862  history
+ 863  ls -F
+  864  ls --hide=g*
+  865  ls -ld $HOME/test/
+  866  mkdir -p $HOME/test/documents/memos/
+  867  ls -R
+  868  ls -S
+  869  ls -ld ch3 test
+  870  cd test
+  871  ls -ld ch3 test
+  872  cd ..
+  873  cd test
+  874  ls
+  875  chmod 777 a1
+  876  chmod 755 a2
+  877  chmod 644 a3
+  878  chmod 000 a4
+  879  cd ..
+  880  chmod -R 755 $HOME/test/a5
+  881  cd test
+  882  ls
+  883  cd ..
+  884  history
