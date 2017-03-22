@@ -1,0 +1,48 @@
+//Excercise 4 part 2//
+
+586  ls
+  587  cp $HOME/projects/house1 $HOME/projects/houses
+  588  cp $HOME/projects/house5 $HOME/projects/houses
+  589  cd projects/
+  590  cd houses/
+  591  ls
+  592  cd ..
+  593  cp -ra /usr/share/doc/initscripts* $HOME/projects
+  594  cd projects
+  595  ls
+  596  cd ..
+  597  rm -rf $HOME/projects/house6
+  598  rm -rf $HOME/projects/house7
+  599  rm -rf $HOME/projects/house8
+  600  ls
+  601  cd projects
+  602  ls
+  603  cd ..
+  604  mv $HOME/projects/house3 $HOME/projects/houses/doors
+  605  mv $HOME/projects/house4 $HOME/projects/houses/doors
+  606  cd projects/
+  607  ls
+  608  cd houses/
+  609  cd doors/
+  610  ls
+  611  cd ..
+  612  rm -r $HOME/projects/houses/doors
+  613  cd prjects
+  614  cd projects/
+  615  cd houses/
+  616  ls
+  617  cd ..
+  618  chmod u+rw $HOME/projects/house2
+  619  chmod g-wx $HOME/projects/house2
+  620  chmod o-rwx $HOME/projects/house2
+  621  cd projects/
+  622  ls -al
+  623  chmod u-x $HOME/projects/house2
+  624  ls -al
+  625  chmod -R g-rwx $HOME/projects
+  626  chmod -R g+rx $HOME/projects
+  627  chmod -R o-rwx $HOME/projects
+  628  chmod -R o+rx $HOME/projects
+  629  cd ..
+  630  ls -al
+  631  history
