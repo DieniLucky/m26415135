@@ -1,0 +1,76 @@
+//Exercise Chapter 4 part 1//
+
+ 345  ls -al
+  346  cd m26415135
+  347  cd ..
+  348  ls
+  349  cd m26415135
+  350  mkdir projects
+  351  ls
+  352  cd projects
+  353  ls
+  354  touch house1
+  355  ls
+  356  touch house2
+  357  touch house3
+  358  touch house4 house5 house6
+  359  ls
+  360  touch house7 house8 house9
+  361  ls
+  362  rm -f house1 house2
+  363  ls
+  364  rm -f house3 house4 house5 house6 house7 house8
+  365  ls
+  366  rm -f house9
+  367  touch house{1,2,3,4,5,6,7,8,9}
+  368  ls
+  369  mkdir $m26415135/coba
+  370  mkdir $HOME/coba
+  371  ls
+  372  cd ..
+  373  ld
+  374  ls
+  375  cd coba
+  376  ls
+  377  cd ..
+  378  rmdir coba
+  379  ls
+  380  cd projects
+  381  ls
+  382  mkdir $projects/houses/door
+  383  mkdir $HOME/projects/houses/door
+  384  mkdir $HOME/m26415135/projects/houses/door
+  385  mkdir $HOME/m26415135/projects/houses
+  386  mkdir $HOME/m26415135/projects
+  387  ls
+  388  cd ..
+  389  ls
+  390  cd m26415135
+  391  ls
+  392  rmdir projects
+  393  ls
+  394  cd ..
+  395  cd projects
+  396  ls
+  397  cd ..
+  398  mkdir $HOME/projects/houses
+  399  cd projects
+  400  ls
+  401  rmdir houses
+  402  ls
+  403  cd .
+  404  mkdir $HOME/projects/houses/doors
+  405  mkdir $HOME/projects/houses
+  406  mkdir $HOME/projects/houses/doors
+  407  touch $HOME/projects/houses/bungalow.txt
+  408  touch $HOME/projects/houses/doors/bifold.txt
+  409  cd projects
+  410  ls
+  411  cd houses
+  412  ls
+  413  cd doors
+  414  ls
+  415  cd ..
+  416  mkdir $HOME/projects/outdoors
+  417  mkdir $HOME/projects/outdoors/vegetation
+  418  touch $HOME/projects/outdoors/vegetation/landscape.txt
