@@ -1,0 +1,154 @@
+//Exercise 7, no 1, 2, 3//
+
+1042  logout
+ 1043  echo '$HOME *** 'date''
+ 1044  echo "$HOME *** 'date'"
+ 1045  $HOME *** 'date'
+ 1046  echo "$HOME 'date'"
+ 1047  echo "$HOME date"
+ 1048  echo "$HOME `date`"
+ 1049  echo '$HOME *** `date`'
+ 1050  echo "$HOME `date`"
+ 1051  history
+ 1052  cd $HOME/bin
+ 1053  cd $m26415135/bin
+ 1054  ls
+ 1055  touch myownscript
+ 1056  cd ..
+ 1057  cd $HOME/bin
+ 1058  ls $HOME
+ 1059  cd /home/m26415135/bin
+ 1060  cd $m26415135/bin
+ 1061  cd ..
+ 1062  ls
+ 1063  ls -al
+ 1064  chmod o+rwx bin
+ 1065  cd $m26415135/bin
+ 1066  touch myownscript
+ 1067  history 
+ 1052  cd $HOME/bin
+ 1053  cd $m26415135/bin
+ 1054  ls
+ 1055  touch myownscript
+ 1056  cd ..
+ 1057  cd $HOME/bin
+ 1058  ls $HOME
+ 1059  cd /home/m26415135/bin
+ 1060  cd $m26415135/bin
+ 1061  cd ..
+ 1062  ls
+ 1063  ls -al
+ 1064  chmod o+rwx bin
+ 1065  cd $m26415135/bin
+ 1066  touch myownscript
+ 1067  history 
+ 1068  logout
+ 1069  echo "$HOME `date`"
+ 1070  cd $m26415135/bin
+ 1071  touch myownscript
+ 1072  chmod u+rwx myownscript
+ 1073  cd ..
+ 1074  mkdir bins
+ 1075  mkdir bin
+ 1076  mkdir exbin
+ 1077  ls
+ 1078  whoami
+ 1079  cd m26415135
+ 1080  logout
+ 1081  mkdir exbin
+ 1082  ls
+ 1083  cd exbin
+ 1084  touch myownscript
+ 1085  nano myownscript 
+ 1086  cd ..
+ 1087  ls
+ 1088  cd python
+ 1089  ls
+ 1090  cat readfile.py 
+ 1091  cd ../cc
+ 1092  ls
+ 1093  cd ..
+ 1094  cat hello.c
+ 1095  cat hello.sh
+ 1096  cat hello.py
+ 1097  ls
+ 1098  cat hello.exe
+ 1099  VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT1021;2cVT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102
+ 1100  ls
+ 1101  cat hello.cpp
+ 1102  cd cc
+ 1103  ls
+ 1104  cat advlist.py 
+ 1105  cd ../exbin
+ 1106  ls
+ 1107  nano myownscript 
+ 1108  history
+ 1109  ./myownscript
+ 1110  chmod u+rwx myownscript 
+ 1111  ./myownscript
+ 1112  nano myownscript 
+ 1113  ./myownscript
+ 1114  nano myownscript 
+ 1115  cd ../cc
+ 1116  cat advlist.py 
+ 1117  nano myownscript 
+ 1118  ls
+ 1119  cd ../exbin
+ 1120  nano myownscript 
+ 1121  ./myownscript
+ 1122  nano myownscript 
+ 1123  ./myownscript
+ 1124  nano myownscript 
+ 1125  ./myownscript
+ 1126  nano myownscript 
+ 1127  ./myownscript
+ 1128  nano myownscript 
+ 1129  ./myownscript
+ 1130  host
+ 1131  hostname
+ 1132  nano myownscript 
+ 1133  ./myownscript
+ 1134  nano myownscript 
+ 1135  ./myownscript
+ 1136  nano myownscript 
+ 1137  ./myownscript
+ 1138  nano myownscript 
+ 1139  ./myownscript
+ 1140  nano myownscript 
+ 1141  ./myownscript
+ 1142  nano myownscript 
+ 1143  ./myownscript
+ 1144  nano myownscript 
+ 1145  ./myownscript
+ 1146  history
+1147  touch parameter
+ 1148  nano parameter 
+ 1149  ./parameter
+ 1150  chmod u+rwx parameter 
+ 1151  ./parameter
+ 1152  nano parameter 
+ 1153  ./parameter
+ 1154  nano parameter 
+ 1155  ./parameter
+ 1156  nano parameter 
+ 1157  ./parameter
+ 1158  nano parameter 
+ 1159  ./parameter
+ 1160  nano parameter 
+ 1161  parameter coba lagi
+ 1162  ./parameter coba lagi
+ 1163  nano parameter 
+ 1164  ./parameter One Two Three
+ 1165  nano parameter 
+ 1166  ./parameter ONE TWO THREE
+ 1167  history
+ 1168  touch reading
+ 1169  nano reading 
+ 1170  ./reading
+ 1171  chmod u+rwx reading
+ 1172  ./reading
+ 1173  nano reading 
+ 1174  ./reading
+ 1175  nano reading 
+ 1176  ./reading
+ 1177  history
