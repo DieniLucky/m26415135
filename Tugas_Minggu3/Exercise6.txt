@@ -1,0 +1,10 @@
+//Exercise 6//
+
+897  ls
+  898  ps ux | less
+  899  ps aux | less
+  900  ps -eo 'ppid,user,group,vsz,rss,comm' | less
+  901  history
+902  top
+903 nice +7 updatedb &
+  904  renice -n -7 5965

@@ -1,0 +1,280 @@
+//Excercise chapter 5, nomor 1 - 5//
+
+m26415135@debian7:/home$ cd ..
+m26415135@debian7:/$ ls
+bin   etc         lib         media  proc  sbin     sys  var
+boot  home        lib64       mnt    root  selinux  tmp  vmlinuz
+dev   initrd.img  lost+found  opt    run   srv      usr
+m26415135@debian7:/$ cd etc
+m26415135@debian7:/etc$ locate passwd
+/etc/passwd
+/etc/passwd-
+/etc/cron.daily/passwd
+/etc/exim4/passwd.client
+/etc/pam.d/chpasswd
+/etc/pam.d/passwd
+/etc/phpmyadmin/htpasswd.setup
+/etc/security/opasswd
+/home/albert/public_html/themes/original/img/s_passwd.png
+/home/albert/public_html/themes/pmahomme/img/s_passwd.png
+/home/kristo/passwd
+/home/m26411084/public_html/phpMyAdmin-4.1.14.7-english/themes/original/img/s_passwd.png
+/home/m26411084/public_html/phpMyAdmin-4.1.14.7-english/themes/pmahomme/img/s_passwd.png
+/home/m26413021/node/deps/openssl/openssl/apps/passwd.c
+/home/m26413021/public_html/sqladmin/themes/original/img/s_passwd.png
+/home/m26413021/public_html/sqladmin/themes/pmahomme/img/s_passwd.png
+/home/m26414056/passwd_temp
+/home/pic/public_html/domjudge/www/jury/genpasswds.php
+/home/ryan/public_html/phpmyadmin/themes/original/img/s_passwd.png
+/home/ryan/public_html/phpmyadmin/themes/pmahomme/img/s_passwd.png
+/usr/bin/gpasswd
+/usr/bin/grub-mkpasswd-pbkdf2
+/usr/bin/htpasswd
+/usr/bin/mkpasswd
+/usr/bin/passwd
+/usr/bin/smbpasswd
+/usr/include/rpcsvc/yppasswd.h
+/usr/include/rpcsvc/yppasswd.x
+/usr/lib/proftpd/mod_sql_passwd.so
+/usr/lib/ruby/1.8/webrick/httpauth/htpasswd.rb
+/usr/lib/ruby/1.9.1/webrick/httpauth/htpasswd.rb
+/usr/sbin/chgpasswd
+/usr/sbin/chpasswd
+/usr/sbin/ftpasswd
+/usr/sbin/mksmbpasswd
+/usr/sbin/update-passwd
+/usr/share/base-passwd
+/usr/share/awk/passwd.awk
+/usr/share/base-passwd/group.master
+/usr/share/base-passwd/passwd.master
+/usr/share/bash-completion/completions/chpasswd
+/usr/share/bash-completion/completions/gpasswd
+/usr/share/bash-completion/completions/htpasswd
+/usr/share/bash-completion/completions/ldappasswd
+/usr/share/bash-completion/completions/passwd
+/usr/share/bash-completion/completions/smbpasswd
+/usr/share/doc/base-passwd
+/usr/share/doc/passwd
+/usr/share/doc/base-passwd/README
+/usr/share/doc/base-passwd/changelog.gz
+/usr/share/doc/base-passwd/copyright
+/usr/share/doc/base-passwd/users-and-groups.html
+/usr/share/doc/base-passwd/users-and-groups.txt.gz
+/usr/share/doc/dovecot-core/example-config/conf.d/auth-passwdfile.conf.ext
+/usr/share/doc/libnet-ssleay-perl/examples/passwd-cb.pl
+/usr/share/doc/passwd/NEWS.Debian.gz
+/usr/share/doc/passwd/NEWS.gz
+/usr/share/doc/passwd/README
+/usr/share/doc/passwd/README.Debian
+/usr/share/doc/passwd/TODO.gz
+/usr/share/doc/passwd/changelog.Debian.gz
+/usr/share/doc/passwd/changelog.gz
+/usr/share/doc/passwd/copyright
+/usr/share/doc/passwd/examples
+/usr/share/doc/passwd/examples/passwd.expire.cron
+/usr/share/doc/w3m/README.passwd
+/usr/share/doc/w3m/ja/README.passwd
+/usr/share/dovecot/conf.d/auth-passwdfile.conf.ext
+/usr/share/lintian/overrides/passwd
+/usr/share/man/cs/man1/gpasswd.1.gz
+/usr/share/man/cs/man5/passwd.5.gz
+/usr/share/man/de/man1/gpasswd.1.gz
+/usr/share/man/de/man1/passwd.1.gz
+/usr/share/man/de/man5/passwd.5.gz
+/usr/share/man/de/man8/chpasswd.8.gz
+/usr/share/man/de/man8/update-passwd.8.gz
+/usr/share/man/es/man8/update-passwd.8.gz
+/usr/share/man/fr/man1/gpasswd.1.gz
+/usr/share/man/fr/man1/passwd.1.gz
+/usr/share/man/fr/man5/passwd.5.gz
+/usr/share/man/fr/man8/chpasswd.8.gz
+/usr/share/man/fr/man8/update-passwd.8.gz
+/usr/share/man/hu/man1/gpasswd.1.gz
+/usr/share/man/hu/man1/passwd.1.gz
+/usr/share/man/hu/man5/passwd.5.gz
+/usr/share/man/it/man1/gpasswd.1.gz
+/usr/share/man/it/man1/passwd.1.gz
+/usr/share/man/it/man5/passwd.5.gz
+/usr/share/man/it/man8/chpasswd.8.gz
+/usr/share/man/ja/man1/gpasswd.1.gz
+/usr/share/man/ja/man1/passwd.1.gz
+/usr/share/man/ja/man5/passwd.5.gz
+/usr/share/man/ja/man8/chpasswd.8.gz
+/usr/share/man/ja/man8/update-passwd.8.gz
+/usr/share/man/ko/man5/passwd.5.gz
+/usr/share/man/man1/ftpasswd.1.gz
+/usr/share/man/man1/gpasswd.1.gz
+/usr/share/man/man1/grub-mkpasswd-pbkdf2.1.gz
+/usr/share/man/man1/htpasswd.1.gz
+/usr/share/man/man1/mkpasswd.1.gz
+/usr/share/man/man1/passwd.1.gz
+/usr/share/man/man1/passwd.1ssl.gz
+/usr/share/man/man3/SSL_CTX_set_default_passwd_cb.3ssl.gz
+/usr/share/man/man3/SSL_CTX_set_default_passwd_cb_userdata.3ssl.gz
+/usr/share/man/man3/passwd2des.3.gz
+/usr/share/man/man5/exim4_passwd.5.gz
+/usr/share/man/man5/exim4_passwd_client.5.gz
+/usr/share/man/man5/passwd.5.gz
+/usr/share/man/man5/smbpasswd.5.gz
+/usr/share/man/man8/chgpasswd.8.gz
+/usr/share/man/man8/chpasswd.8.gz
+/usr/share/man/man8/ftpasswd.8.gz
+/usr/share/man/man8/mksmbpasswd.8.gz
+/usr/share/man/man8/smbpasswd.8.gz
+/usr/share/man/man8/update-passwd.8.gz
+/usr/share/man/pl/man8/update-passwd.8.gz
+/usr/share/man/pt_BR/man1/gpasswd.1.gz
+/usr/share/man/pt_BR/man5/passwd.5.gz
+/usr/share/man/ru/man1/gpasswd.1.gz
+/usr/share/man/ru/man1/passwd.1.gz
+/usr/share/man/ru/man5/passwd.5.gz
+/usr/share/man/ru/man8/chpasswd.8.gz
+/usr/share/man/ru/man8/update-passwd.8.gz
+/usr/share/man/sv/man1/passwd.1.gz
+/usr/share/man/sv/man5/passwd.5.gz
+/usr/share/man/tr/man1/passwd.1.gz
+/usr/share/man/tr/man5/passwd.5.gz
+/usr/share/man/zh_CN/man1/gpasswd.1.gz
+/usr/share/man/zh_CN/man1/passwd.1.gz
+/usr/share/man/zh_CN/man5/passwd.5.gz
+/usr/share/man/zh_CN/man8/chpasswd.8.gz
+/usr/share/man/zh_TW/man5/passwd.5.gz
+/usr/share/man/zh_TW/man8/chpasswd.8.gz
+/usr/share/nmap/scripts/http-passwd.nse
+/usr/share/phpmyadmin/themes/original/img/s_passwd.png
+/usr/share/phpmyadmin/themes/pmahomme/img/s_passwd.png
+/usr/share/sendmail/examples/passwd-to-alias
+/usr/share/sendmail/examples/sasl/saslpasswd.conf.1
+/usr/share/sendmail/examples/sasl/saslpasswd.conf.2
+/usr/share/vim/vim73/ftplugin/passwd.vim
+/usr/share/vim/vim73/syntax/passwd.vim
+/var/backups/passwd.bak
+/var/lib/dpkg/info/base-passwd.list
+/var/lib/dpkg/info/base-passwd.md5sums
+/var/lib/dpkg/info/base-passwd.postinst
+/var/lib/dpkg/info/passwd.conffiles
+/var/lib/dpkg/info/passwd.list
+/var/lib/dpkg/info/passwd.md5sums
+/var/lib/dpkg/info/passwd.postinst
+/var/lib/dpkg/info/passwd.preinst
+/var/lib/ucf/cache/:etc:dovecot:conf.d:auth-passwdfile.conf.ext
+/var/tmp/passwd.swp
+m26415135@debian7:/etc$ find -name passwd
+./pam.d/passwd
+find: `./polkit-1/localauthority': Permission denied
+./cron.daily/passwd
+find: `./ssl/private': Permission denied
+find: `./openfire': Permission denied
+./passwd
+find: `./dovecot': Permission denied
+m26415135@debian7:/etc$ find -iname passwd
+./pam.d/passwd
+find: `./polkit-1/localauthority': Permission denied
+./cron.daily/passwd
+find: `./ssl/private': Permission denied
+find: `./openfire': Permission denied
+./passwd
+find: `./dovecot': Permission denied
+m26415135@debian7:/etc$ find passwd
+passwd
+m26415135@debian7:/etc$ find .-name passwd
+find: `.-name': No such file or directory
+passwd
+m26415135@debian7:/etc$ find .-name "passwd"
+find: `.-name': No such file or directory
+passwd
+m26415135@debian7:/etc$ find .-name"passwd"
+find: `.-namepasswd': No such file or directory
+m26415135@debian7:/etc$ cd ..
+
+m26415135@debian7:~$ find /etc -name passwd
+/etc/pam.d/passwd
+find: `/etc/polkit-1/localauthority': Permission denied
+/etc/cron.daily/passwd
+find: `/etc/ssl/private': Permission denied
+find: `/etc/openfire': Permission denied
+/etc/passwd
+find: `/etc/dovecot': Permission denied
+m26415135@debian7:~$ Last login: Thu Mar 16 00:46:13 2017 from 202.67.40.5
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+m26415135@debian7:~$ find /etc -name passwd
+/etc/pam.d/passwd
+find: `/etc/polkit-1/localauthority': Permission denied
+/etc/cron.daily/passwd
+find: `/etc/ssl/private': Permission denied
+find: `/etc/openfire': Permission denied
+/etc/passwd
+find: `/etc/dovecot': Permission denied
+m26415135@debian7:~$ command > /dev/null 2>&1
+m26415135@debian7:~$ 2> /dev/null
+m26415135@debian7:~$ mkdir TEST
+m26415135@debian7:~$ cd TEST
+m26415135@debian7:~/TEST$ touch one two three
+m26415135@debian7:~/TEST$ ls
+one  three  two
+m26415135@debian7:~/TEST$ chmod u+rwx one
+m26415135@debian7:~/TEST$ chmod g+rwx one
+m26415135@debian7:~/TEST$ chmod o+rwx one
+m26415135@debian7:~/TEST$ ls -al
+total 8
+drwxr-xr-x  2 m26415135 m26415135 4096 Mar 16 00:53 .
+drwxr-xr-x 10 m26415135 m26415135 4096 Mar 16 00:52 ..
+-rwxrwxrwx  1 m26415135 m26415135    0 Mar 16 00:53 one
+-rw-r--r--  1 m26415135 m26415135    0 Mar 16 00:53 three
+-rw-r--r--  1 m26415135 m26415135    0 Mar 16 00:53 two
+m26415135@debian7:~/TEST$ chmod u+rwx two
+m26415135@debian7:~/TEST$ chmod g+rwx two
+m26415135@debian7:~/TEST$ chmod o+rwx two
+m26415135@debian7:~/TEST$ chmod u+rwx three
+m26415135@debian7:~/TEST$ chmod g+rwx three
+m26415135@debian7:~/TEST$ chmod o+rwx three
+m26415135@debian7:~/TEST$ ls -al
+total 8
+drwxr-xr-x  2 m26415135 m26415135 4096 Mar 16 00:53 .
+drwxr-xr-x 10 m26415135 m26415135 4096 Mar 16 00:52 ..
+-rwxrwxrwx  1 m26415135 m26415135    0 Mar 16 00:53 one
+-rwxrwxrwx  1 m26415135 m26415135    0 Mar 16 00:53 three
+-rwxrwxrwx  1 m26415135 m26415135    0 Mar 16 00:53 two
+m26415135@debian7:~/TEST$ cd ..
+m26415135@debian7:~$ find /TEST -perm -002 -type d -ls
+find: `/TEST': No such file or directory
+m26415135@debian7:~$ ls
+TEST   fruits2.txt  hello.cpp  hello.py  kelas      projects     python
+a.out  hello.c      hello.exe  hello.sh  m26415135  public_html  repo
+m26415135@debian7:~$ find /home/TEST -perm -002 -type d -ls
+find: `/home/TEST': No such file or directory
+m26415135@debian7:~$ find /home/m26415135/TEST -perm -002 -type d -ls
+m26415135@debian7:~$ find m26415135/TEST -perm -002 -type d -ls
+find: `m26415135/TEST': No such file or directory
+m26415135@debian7:~$ find TEST -perm -002 -type d -ls
+m26415135@debian7:~$ find /$HOME/TEST -perm -002 -type d -ls
+m26415135@debian7:~$ ls /$HOME/TEST
+one  three  two
+m26415135@debian7:~$ find /$HOME/TEST -perm +002 -type f    
+//home/m26415135/TEST/two
+//home/m26415135/TEST/one
+//home/m26415135/TEST/three
+m26415135@debian7:~$ find /$HOME/TEST -perm +002 -type f -ls
+3600703    0 -rwxrwxrwx   1 m26415135 m26415135        0 Mar 16 00:53 //home/m26415135/TEST/two
+3600697    0 -rwxrwxrwx   1 m26415135 m26415135        0 Mar 16 00:53 //home/m26415135/TEST/one
+3600704    0 -rwxrwxrwx   1 m26415135 m26415135        0 Mar 16 00:53 //home/m26415135/TEST/three
+m26415135@debian7:~$ 
+
+history yg tercatat :
+  651  cd etc
+  652  locate passwd
+  653  find -name passwd
+  654  find -iname passwd
+  655  find passwd
+  656  find .-name passwd
+  657  find .-name "passwd"
+  658  find .-name"passwd"
+  659  cd ..
+  660  find -name passwd
+  661  history
