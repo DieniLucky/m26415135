@@ -1,0 +1,54 @@
+//Exercise 7, nomor 4 dan 5//
+
+*history*
+1207  cd ../exbin
+ 1208  ls
+ 1209  touch myos
+ 1210  cat reading 
+ 1211  nano myos
+ 1212  nano myownscript 
+ 1213  cat myownscript 
+ 1214  cat parameter 
+ 1215  cat reading 
+ 1216  nano myos
+ 1217  ./myos
+ 1218  chmod u+rwx myos
+ 1219  ./myos
+ 1220  history
+ 1221  cat myos
+ 1222  touch forloop
+ 1223  nano forloop 
+ 1224  chmod u+rwx forloop 
+ 1225  ./forloop
+ 1226  history
+ 
+*isi file myos*
+#!/bin/bash
+read -p "What is your favorite operating system? : " input
+if [ "$input" = "Linux" ] ; then
+    echo "Great choice!"
+else
+    echo "Is $input an operating sistem?"
+fi
+
+*pemanggilan ./myos*
+m26415135@debian7:~/exbin$ ./myos
+What is your favorite operating system? : Linux
+Great choice!
+m26415135@debian7:~/exbin$ ./myos
+What is your favorite operating system? : Windows          
+Is Windows an operating sistem?
+
+
+*isi file forloop*
+#!/bin/bash
+for WORDS in moose cow goose sow ; do
+    echo I have a $WORDS
+done
+
+*pemanggilan ./forloop*
+m26415135@debian7:~/exbin$ ./forloop
+I have a moose
+I have a cow
+I have a goose
+I have a sow
